@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Flask local database and uploads
+backend/civictrack.db
+backend/uploads/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Environment and editor files
+.env
+backend/.env
+.vscode/
+*.log
